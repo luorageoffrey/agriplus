@@ -46,7 +46,7 @@ To run this project, clone or download it from git hub. Using Live server or you
 
 [MIT](LICENCE)
 
-Copyright (c) 2022 Geoffrey Luoraa
+Copyright (c) 2022 Geoffrey Luora
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
