@@ -1,254 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet" type="text/css">
-    <title>agriplus</title>
-</head>
-<body>
-    <!-- class= "container" -->
-    <main>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,100;1,200;1,300;1,400&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+		/>
 
-        <section>
+		<link rel="stylesheet" href="./assets/css/styles.css" />
+		<title>AgriPlus</title>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Navbar section -->
+			<header class="nav-prim-bar">
+				<div class="nav-bar">
+					<div class="logo">
+						<h1>AgriPlus</h1>
+					</div>
+					<div class="nav-links">
+						<ul>
+							<li>
+								<a href="#" class="visited-link active"> Home </a>
+							</li>
+							<li>
+								<a href="#"> About </a>
+							</li>
+							<li>
+								<a href="#"> Products </a>
+							</li>
 
-            <h2 id="title">AgriPlus</h2>
+							<li>
+								<a href="#"> Contact us </a>
+							</li>
+						</ul>
+					</div>
+					<div class="get-started-btn">
+						<button class="login-btn">Login</button>
+						<button id="getstarted-btn" class="btn default-color">
+							Get Started
+						</button>
+					</div>
+				</div>
+			</header>
+			<!-- Explore More Section -->
+			<div class="welcome-section">
+				<div class="img-element">
+					<img src="./assets/image 1.png" alt="wheet" />
 
-            <nav id="nav-links">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Products</a>
-                <a href="#">Contact Us</a>
-            </nav>
-        </section>
+					<div class="description-container">
+						<div class="position-conta">
+							<img src="./assets/image 2.png" alt="Vegetables" />
+							<h2>
+								Buying and selling quality farm produce has never been easier.
+							</h2>
+							<p>
+								AgriPlus is here to have you sorted, you can order farm produce
+								from the farmers, harvesters, and producers directly.
+							</p>
+							<div class="description-explore">
+								<button id="explor-btn" class="btn default-color">
+									Explore more
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="statistics-agri">
+						<div class="agri-rates">
+							<p>200+</p>
+							<p>verified vendors</p>
+						</div>
+						<div class="agri-rates">
+							<p>105+</p>
+							<p>Happy Customers</p>
+						</div>
+						<div class="agri-rates">
+							<p>2000+</p>
+							<p>Nation Wide Customers</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Description Section -->
+			<div class="description-sec">
+				<div class="container-descr">
+					<h2 class="text-title">Why we exist</h2>
+					<hr class="rule-line default-color" />
 
-
-
-        <div class="message-info">
-
-            <div class="img">
-                <img src="./assets/image 1.png" alt="wheat-field">
-            </div>
-
-            <div class="description">
-
-                <div class="decription-1">
-                    <img src="./assets/image 2.png" alt="vegetables">
-
-                    <h2>
-                        Buying and selling quality farm produce has never been easier.
-                    </h2>
-
-                    <p>
-                        AgriPlus is here to have you sorted, you can order farm produce
-                        from the farmers, harvesters, and producers directly.
-                    </p>
-
-                    <div class="explore">
-                        <button id="explore-btn" class="btn">
-
-                            Explore more
-
-                        </button>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="stats">
-
-                <div class="stats-rates">
-
-                    <p>200+</p>
-                    <p>verified vendors</p>
-
-                </div>
-
-                <div class="stats-rates">
-
-                    <p>105+</p>
-                    <p>Happy customers</p>
-
-                </div>
-
-                <div class="stats-rates">
-
-                    <p>200+</p>
-                    <p>Nation wide customers</p>
-
-                </div>
-
-            </div>
-           
-
-        </div>
-
-        <div class="our-why">
-            <div class="container-descr">
-                <h2 class="text-title">Why we exist</h2>
-                <hr class="rule-line default-color" />
-
-                <div class="container-description">
-                    <p>
-                        We are built to make your work easier. Like any online ecommerce,
-                        AgriPlus provide a great platform for farmers to reach their
-                        customers throughout the country. We have made it easier to shop
-                        from anywhere through the platform
-                    </p>
-                </div>
-            </div>
-            <div class="container-descr">
-                <img src="./assets/image 3.png" alt="Services" />
-            </div>
-        </div>
-
-
-        <!--categories of products -->
-
-        <div class="product-categories">
-            <div class="title-categories">
-                <h2 class="text-title">Our categories of products</h2>
-                <hr class="title-hr-line default-color" />
-                <p>
-                    We go beyond the borders to ensure you get fresh produce from the
-                    farm. Our customer satisfaction is our mission.
-                </p>
-            </div>
-
-            <div class="category-options">
-
-                <div class="most-popular">
-                    <div class="popular-title">
-
-                        <h2 class="text-title">Most Popular</h2>
-						<hr class="rule-line default-color" />
-                    </div>
-
-                    <div class="popular-list">
-
-                        <div class="card-elements">
-                            <div class="img-card">
-                                <img src="./assets/img/Rectangle 5.png" alt="carrots">
-
-                            </div>
-
-                            <div class="proprties-sect">
-                                <h6>Fresh Carrots</h6>
-                                <p>Kinyanjui farmers Association</p>
-                                <h6>Ksh. 200/kg</h6>
-                            </div>
-                        </div>
-
-                        <div class="card-elements">
-                            <div class="img-card">
-                                <img src="./assets/img/image 4.png" alt="" />
-                            </div>
-                            <div class="proprties-sect">
-                                <h6>Cereals</h6>
-                                <p>Kenya Cereals Board</p>
-                                <h6>Ksh. 5000/bag</h6>
-                            </div>
-                        </div>
-                        <div class="card-elements">
-                            <div class="img-card">
-                                <img src="./assets/img/image 5.png " alt="" />
-                            </div>
-                            <div class="proprties-sect">
-                                <h6>Fresh Fish/tilapia</h6>
-                                <p>mr. Otieno</p>
-                                <h6>Ksh. 500/kg</h6>
-                            </div>
-                        </div>
-                        <div class="card-elements">
-                            <div class="img-card">
-                                <img src="./assets/img/Rectangle 6.png" alt="" />
-                            </div>
-                            <div class="proprties-sect">
-                                <h6>Kales/Sukuma Wiki</h6>
-                                <p>Njoki's Farm</p>
-                                <h6>Ksh. 50/bunch</h6>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- new items -->
-                <div class="most-popular">
-                    <div class="popular-title">
-                        <h2 class="text-title">Newest Item</h2>
-                        <hr class="rule-line default-color" />
-                    </div>
-                    <div class="popular-list">
-                        <div class="card-elements">
-                            <div class="img-card">
-                                <img src="./assets/Rectangle 6.png" alt="" />
-                            </div>
-                            <div class="proprties-sect">
-                                <h6>Chicken</h6>
-                                <p>Wafula Farm</p>
-                                <h6>Ksh. 700</h6>
-                            </div>
-                        </div>
-                        <div class="card-elements">
-                            <div class="img-card">
-                                <img src="./assets/Rectangle 7.png" alt="" />
-                            </div>
-                            <div class="proprties-sect">
-                                <h6>Ahero/Ir Rice</h6>
-                                <p>Ahero Irrigation Board</p>
-                                <h6>Ksh. 200/kg</h6>
-                            </div>
-                        </div>
-                        <div class="card-elements">
-                            <div class="img-card">
-                                <img src="./assets/Rectangle 8.png" alt="" />
-                            </div>
-                            <div class="proprties-sect">
-                                <h6>Mursik</h6>
-                                <p>korir Dairy Farm</p>
-                                <h6>Ksh. 200/kg</h6>
-                            </div>
-                        </div>
-                        <div class="card-elements">
-                            <div class="img-card">
-                                <img src="./assets/Rectangle 9.png" alt="" />
-                            </div>
-                            <div class="proprties-sect">
-                                <h6>Fresh Tomatoes</h6>
-                                <p>TZ Farmers Association</p>
-                                <h6>Ksh. 5000/Crate</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- end - new items  -->
-
-                <div class="show-more">
-                    <div class="float-side">
-                        <div class="empty"></div>
-                        <div class="flex-right">
-                            <div class="btn-more">
-                                <button class="see-more">See All</button>
-                                <i class="fa-solid fa-right-long"></i>
-                            </div>
-                            <hr class="rule-line default-color see-more-hr" />
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-
-
-
-    </main>
-    
-</body>
+					<div class="container-description">
+						<p>
+							We are built to make your work easier. Like any online ecommerce,
+							AgriPlus provide a great platform for farmers to reach their
+							customers throughout the country. We have made it easier to shop
+							from anywhere through the platform
+						</p>
+					</div>
+				</div>
+				<div class="container-descr">
+					<img src="./assets/image 3.png" alt="Services" />
+				</div>
+			</div>
+			<!-- Product categories -->
+			<div class="product-categ">
+				<div class="title-categ">
+					<h2 class="text-title">Our categories of products</h2>
+					<hr class="title-hr-line default-color" />
+					<p>
+						We go beyond the borders to ensure you get fresh produce from the
+						farm. Our customer satisfaction is our mission.
+					</p>
+				</div>
+				<div class="category-options">
+					<!-- Most popular-->
+					<div class="most-popular">
+						<div class="popular-title">
+							<h2 class="text-title">Most Popular</h2>
+							<hr class="rule-line default-color" />
+						</div>
+						<div class="popular-list">
+							<div class="card-elements">
+								<div class="img-card">
+									<img src="./assets/Rectangle 5.png" alt="" />
+								</div>
+								<div class="proprties-sect">
+									<h6>Fresh Carrots</h6>
+									<p>Kinyanjui farmers Association</p>
+									<h6>Ksh. 200/kg</h6>
+								</div>
+							</div>
+							<div class="card-elements">
+								<div class="img-card">
+									<img src="./assets/image 4.png" alt="" />
+								</div>
+								<div class="proprties-sect">
+									<h6>Cereals</h6>
+									<p>Kenya Cereals Board</p>
+									<h6>Ksh. 5000/bag</h6>
+								</div>
+							</div>
+							<div class="card-elements">
+								<div class="img-card">
+									<img src="./assets/image 5.png " alt="" />
+								</div>
+								<div class="proprties-sect">
+									<h6>Fresh Fish/tilapia</h6>
+									<p>mr. Otieno</p>
+									<h6>Ksh. 500/kg</h6>
+								</div>
+							</div>
+							<div class="card-elements">
+								<div class="img-card">
+									<img src="./assets/Rectangle 6.png" alt="" />
+								</div>
+								<div class="proprties-sect">
+									<h6>Kales/Sukuma Wiki</h6>
+									<p>Njoki's Farm</p>
+									<h6>Ksh. 50/bunch</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Newest Items -->
+					<div class="most-popular">
+						<div class="popular-title">
+							<h2 class="text-title">Newest Item</h2>
+							<hr class="rule-line default-color" />
+						</div>
+						<div class="popular-list">
+							<div class="card-elements">
+								<div class="img-card">
+									<img src="./assets/Rectangle 6.png" alt="" />
+								</div>
+								<div class="proprties-sect">
+									<h6>Chicken</h6>
+									<p>Wafula Farm</p>
+									<h6>Ksh. 700</h6>
+								</div>
+							</div>
+							<div class="card-elements">
+								<div class="img-card">
+									<img src="./assets/Rectangle 7.png" alt="" />
+								</div>
+								<div class="proprties-sect">
+									<h6>Ahero/Ir Rice</h6>
+									<p>Ahero Irrigation Board</p>
+									<h6>Ksh. 200/kg</h6>
+								</div>
+							</div>
+							<div class="card-elements">
+								<div class="img-card">
+									<img src="./assets/Rectangle 8.png" alt="" />
+								</div>
+								<div class="proprties-sect">
+									<h6>Mursik</h6>
+									<p>korir Dairy Farm</p>
+									<h6>Ksh. 200/kg</h6>
+								</div>
+							</div>
+							<div class="card-elements">
+								<div class="img-card">
+									<img src="./assets/Rectangle 9.png" alt="" />
+								</div>
+								<div class="proprties-sect">
+									<h6>Fresh Tomatoes</h6>
+									<p>TZ Farmers Association</p>
+									<h6>Ksh. 5000/Crate</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="show-more">
+						<div class="float-side">
+							<div class="empty"></div>
+							<div class="flex-right">
+								<div class="btn-more">
+									<button class="see-more">See All</button>
+									<i class="fa-solid fa-right-long"></i>
+								</div>
+								<hr class="rule-line default-color see-more-hr" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- empty dive line -->
+			<div class="empty-con"></div>
+			<!-- Rating section -->
+			<div class="rating-section">
+				<div class="rating-title">
+					<h2 class="text-title">
+						What our Esteemed customers has to say about us
+					</h2>
+					<div class="rating-cards">
+						<div class="cards-prime">
+							<div class="rating-card">
+								<div class="star-rating-icon">
+									<span class="material-symbols-rounded"> star </span>
+									<span class="material-symbols-rounded"> star </span>
+									<span class="material-symbols-rounded"> star </span>
+									<span class="material-symbols-rounded"> star </span>
+									<span id="select-child" class="material-symbols-rounded">
+										star
+									</span>
+								</div>
+							</div>
+							<h2>"The most efficient way to get fresh produce."</h2>
+							<div class="profile-details">
+								<div class="profile-img">
+									<img
+										src="./assets/Rectangle 11.png"
+										alt="Rebecca Mkulima"
+									/>
+								</div>
+								<p>Rebecca Mkulima</p>
+							</div>
+						</div>
+						<div class="cards-prime">
+							<div class="rating-card">
+								<div class="star-rating-icon">
+									<span class="material-symbols-rounded"> star </span>
+									<span class="material-symbols-rounded"> star </span>
+									<span class="material-symbols-rounded"> star </span>
+									<span class="material-symbols-rounded"> star </span>
+									<span class="material-symbols-rounded"> star </span>
+								</div>
+							</div>
+							<h2>"AgriPlus is the place to market your produce"</h2>
+							<div class="profile-details margin-top">
+								<div class="profile-img">
+									<img
+										src="./assets/Rectangle 11-1.png"
+										alt="Rebecca Mkulima"
+									/>
+								</div>
+								<p>John Joe</p>
+							</div>
+						</div>
+						<div class="cards-prime">
+							<div class="rating-card">
+								<div class="star-rating-icon">
+									<span class="material-symbols-rounded"> star </span>
+									<span class="material-symbols-rounded"> star </span>
+									<span class="material-symbols-rounded"> star </span>
+									<span class="material-symbols-rounded"> star </span>
+									<span class="material-symbols-rounded"> star </span>
+								</div>
+							</div>
+							<h2>"Connecting rural to urban through business."</h2>
+							<div class="profile-details margin-top-l">
+								<div class="profile-img">
+									<img
+										src="./assets/Rectangle 11-2.png"
+										alt="Rebecca Mkulima"
+									/>
+								</div>
+								<p>Lavington dwellers</p>
+							</div>
+						</div>
+					</div>
+					<div class="show-more">
+						<div class="float-side">
+							<div class="empty"></div>
+							<div class="flex-right">
+								<div class="btn-more">
+									<button class="see-more">Read More</button>
+									<i class="fa-solid fa-right-long"></i>
+								</div>
+								<hr class="rule-line default-color see-more-hr" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="input-form">
+				<form action="_blank">
+					<div class="form-title">
+						<h2 class="text-title color-input">We'd Like to keep in touch</h2>
+						<p>Subscribe to our newsletter</p>
+					</div>
+					<div class="submit-email">
+						<input type="gmail" placeholder="Enter your email address" /><button
+							id="subscribe"
+						>
+							Subscribe
+						</button>
+					</div>
+				</form>
+			</div>
+			<!-- footer section -->
+			<footer>
+				<div class="footer-container">
+					<div class="left-container">
+						<div class="logo-info">
+							<div class="logo">
+								<h1>AgriPlus</h1>
+							</div>
+							<p>Quality Farm produce through buying and selling</p>
+							<div class="icons-social">
+								<img
+									src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/48/000000/external-twitter-twitter-flatart-icons-outline-flatarticons.png"
+								/>
+								<img
+									src="https://img.icons8.com/fluency-systems-regular/48/000000/facebook-f.png"
+								/>
+								<img
+									src="https://img.icons8.com/material-outlined/48/000000/instagram-new--v1.png"
+								/>
+							</div>
+							<h2 class="min-title">Get the app</h2>
+						</div>
+						<div class="iphon-android">
+							<img
+								src="./assets/rsz_download-removebg-preview.png"
+								alt="Apple Download"
+							/>
+							<img
+								src="./assets/rsz_1download-removebg-preview.png"
+								alt="Android Download"
+							/>
+						</div>
+					</div>
+					<div class="right-container">
+						<div class="first-li-column">
+							<h2 class="min-title">Company</h2>
+							<ul>
+								<li>About</li>
+								<li>Product</li>
+								<li>Contact us</li>
+								<li></li>
+							</ul>
+						</div>
+						<div class="first-li-column">
+							<h2 class="min-title">Products</h2>
+							<ul>
+								<li>Dairy</li>
+								<li>Cereals</li>
+								<li>Vegetables & Fruits</li>
+								<li>More......</li>
+							</ul>
+						</div>
+						<div class="first-li-column">
+							<h2 class="min-title">Others</h2>
+							<ul>
+								<li>FAQs</li>
+								<li>Terms of Services</li>
+								<li>Privacy and Policy</li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="terms-service">
+					<h2 class="min-title terms">
+						All rights reserved, terms and condition applied
+					</h2>
+				</div>
+			</footer>
+		</div>
+	</body>
 </html>
