@@ -79,3 +79,37 @@ body{
 	font-size: 36px;
 }
 
+.btn {
+    padding: 20px;
+	border: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600 !important;
+	cursor: pointer;
+}
+
+.login-btn {
+    background-color: #000;
+	color: #fff;
+	font-size: 18px;
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.login-btn:hover{
+    border-bottom: 4px solid #ed661f;
+}
+
+.get-started-btn {
+	width: 20%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+   
+}
+
+
