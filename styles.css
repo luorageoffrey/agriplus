@@ -112,4 +112,75 @@ body{
    
 }
 
+#welcome{
+    width: 100%;
+}
 
+#welcome .img-element {
+	width: inherit;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+#welcome .img-element > img {
+	width: inherit;
+}
+
+.description-container {
+	display: block;
+	position: absolute !important;
+	top: 12rem;
+}
+
+.description-container .position-conta {
+	
+	align-items: center;
+	width: 90%;
+	margin: auto;
+}
+.description-container .position-conta > img {
+	
+	clear: left;
+    width: 50%;
+	float: right;
+	box-sizing: border-box;
+	padding-bottom: 89px;
+}
+
+.position-conta > h2 {
+	font-weight: 700;
+    box-sizing: border-box;
+	margin-bottom: 5px;
+	font-size: 40px;	
+	
+}
+
+.position-conta > p {
+	font-weight: 500;
+	font-size: 18px;
+}
+
+#explor-btn {
+	cursor: pointer;
+	font-size: 30px;
+	padding: 25;
+}
+.stats {
+	position: absolute;
+	display: flex;
+	background-color: #fff;
+	right: 0;
+	bottom: 0;
+	margin-right: 12%;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+.stats .rates {
+	justify-content: center;
+	text-align: center;
+	margin: 30px;
+}
+.stats .rates > p {
+	font-weight: 650;
+	font-size: 18px;
+}
