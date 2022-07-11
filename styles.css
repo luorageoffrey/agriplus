@@ -305,3 +305,62 @@ body{
 	margin-top: 80px;
 	box-shadow: 0px 3px 3px 0px grey inset;
 }
+
+.rating-section {
+	margin-top: 60px;
+}
+#select-child {
+	color: lightgray;
+}
+.rating-cards {
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+	justify-content: space-between;
+}
+
+.cards-prime {
+	width: 22%;
+	padding: 10px 35px 10px;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+	height: 340px;
+	cursor: pointer;
+}
+.cards-prime:hover {
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.material-symbols-rounded {
+	font-size: 60px;
+	color: #ed661f;
+}
+.cards-prime > h2 {
+	font-size: 30px !important;
+	/* font-weight: 600; */
+}
+.star-rating-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.profile-details {
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+}
+.profile-details .profile-img {
+	height: 50px;
+}
+.profile-details .profile-img > img {
+	height: inherit;
+}
+.profile-details > P {
+	font-weight: 600;
+	margin-left: 30px;
+}
+.margin-top {
+	margin-top: 63px;
+}
+.rating-title {
+	width: 90%;
+	margin: auto;
+}
