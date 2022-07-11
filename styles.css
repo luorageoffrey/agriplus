@@ -342,18 +342,18 @@ body{
 	align-items: center;
 	justify-content: center;
 }
-.profile-details {
+.profile-info {
 	display: flex;
 	align-items: center;
 	box-sizing: border-box;
 }
-.profile-details .profile-img {
+.profile-info .profile-img {
 	height: 50px;
 }
-.profile-details .profile-img > img {
+.profile-info .profile-img > img {
 	height: inherit;
 }
-.profile-details > P {
+.profile-info > P {
 	font-weight: 600;
 	margin-left: 30px;
 }
