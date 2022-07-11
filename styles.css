@@ -175,12 +175,44 @@ body{
 	margin-right: 12%;
 	box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
+.stats .rates > p {
+	font-weight: 650;
+	font-size: 18px;
+}
 .stats .rates {
 	justify-content: center;
 	text-align: center;
 	margin: 30px;
 }
-.stats .rates > p {
-	font-weight: 650;
-	font-size: 18px;
+.description-sec {
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+	margin: 70px auto 10px;
+	width: 90%;
+}
+
+.container-descr > img {
+	width: 700px;
+}
+.text-title {
+	box-sizing: border-box;
+	margin-bottom: 2px;
+}
+
+.rule-line {
+	height: 4px;
+	width: 80px;
+	margin-left: 0;
+	margin-top: 0;
+	padding-top: 0;
+	border: none;
+}
+.container-descr > p {
+	font-size: 17px;
+}
+.container-description {
+	width: 100;
+	font-size: 16px;
+	word-wrap: break-word;
 }
