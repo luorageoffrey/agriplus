@@ -1,7 +1,81 @@
-#title{
-    display: inline;
+body{
+    margin: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    font-family:'Poppins', sans-serif;
+    width: 100%;
 }
 
-#nav-links{
-    display: inline;
+.theme-color {
+    background-color: #ff6106;
 }
+
+@media (min-width: 1290px){
+    .container{
+        max-width: 1290px !important;
+		margin: auto !important;
+		height: 100%;
+    }
+}
+
+.container {
+    width: 100%;
+}
+
+.active {
+    border-bottom: 4px solid #ff6106 !important;
+}
+
+.header {
+    position: fixed;
+    background-color: inherit;
+    width: 100%;
+    z-index: 4;
+    background-color: #000;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+
+.nav-links > ul {
+    display: flex !important;
+    align-items: center;
+}
+
+.nav-links > ul > li > a{
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+    font-size: 20px;
+    margin: 20px;
+
+}
+.nav-links > ul > li {
+	list-style: none;
+	font-weight: 600;
+}
+
+.nav-links > ul > li > a:hover {
+	border-bottom: 4px solid #ed661f;
+	font-weight: 600;
+}
+
+.nav-links ul > li > .visited-link:visited {
+	color: #fff;
+	font-weight: 900;
+}
+
+.logo > h1 {
+	color: white;
+	cursor: pointer;
+	font-weight: 700;
+	font-size: 36px;
+}
+
