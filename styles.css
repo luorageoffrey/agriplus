@@ -394,3 +394,28 @@ textarea:focus,
 input:focus {
 	outline: none;
 }
+
+::placeholder {
+
+	color: #000;
+	opacity: 1; /* Firefox */
+}
+#subscribe {
+	font-size: 22px;
+	background-color: #ed661f;
+	color: #fff;
+	border: none;
+	padding: 10px 20px 10px 20px;
+	font-weight: 500;
+	cursor: pointer;
+}
+#subscribe:hover {
+	box-shadow: #ed661f 0px 2px 4px 0px, #ed661f 0px 2px 16px 0px;
+}
+.submit-email {
+	display: flex;
+	align-items: center;
+	margin: auto;
+	width: inherit;
+	justify-content: center;
+}
