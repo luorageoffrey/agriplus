@@ -17,7 +17,8 @@
 
 ## General info
 
-This project is an online store for the AgriPlus agricultural cooperative, which gives farmers a platform to connect with consumers across the nation and sell or buy their produce while interacting with them to produce high-quality produce. Users can register and create an account, from which they can buy and order agricultural products from the growers. The page also has a description of some of their services, a contact form, and an additional form that allows users to sign up for Agriplus's newsletter to receive notifications of any interesting farming bargains or offers. This facilitates communication with both customers and farmers.
+
+This is a landing page for an agri-e-commerce site to link farmers with buyers. Farmers and buyers can create an account and start trading.
 
 ## Technologies
 
