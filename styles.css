@@ -364,3 +364,33 @@ body{
 	width: 90%;
 	margin: auto;
 }
+
+.input-form {
+	background-color: #000;
+	width: 90%;
+	margin: auto;
+	justify-content: center;
+	text-align: center;
+	padding: 64.5px;
+	margin-bottom: 5px;
+}
+.form-title > p {
+	color: #fff;
+	font-size: 20px;
+}
+.color-input {
+	color: #fff;
+	font-weight: 500 !important;
+	font-size: 37px !important;
+}
+.submit-email > input {
+	height: 40px !important;
+	width: 30%;
+	font-size: 20px;
+	padding-left: 29px;
+	color: #000;
+}
+textarea:focus,
+input:focus {
+	outline: none;
+}
