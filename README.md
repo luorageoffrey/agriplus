@@ -13,7 +13,7 @@
 - [General info](#general-info)
 - [Technologies](#technologies)
 - [Setup](#setup)
-- [contac](#contact)
+- [contact](#contact)
 
 ## General info
 
