@@ -236,13 +236,12 @@ body{
 	padding-top: 0;
 	border: none;
 }
-.card-elements {
+.card-details {
 	width: 22%;
 	cursor: pointer;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding: 10px;
 }
-.card-elements:hover {
+.card-details:hover {
 	box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 .img-card {
@@ -296,13 +295,15 @@ body{
 	width: 40px !important;
 	margin-left: 9px !important;
 }
-.empty-con {
+
+#separator{
 	height: 30px;
 	
 	margin-bottom: 20px;
+   
+	margin-top: 80px;
     background-color: lightgray;
 	border-top: 2px solid grey;
-	margin-top: 80px;
 	box-shadow: 0px 3px 3px 0px grey inset;
 }
 
@@ -319,21 +320,21 @@ body{
 	justify-content: space-between;
 }
 
-.cards-prime {
+.cards-feedback {
 	width: 22%;
 	padding: 10px 35px 10px;
 	box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 	height: 340px;
 	cursor: pointer;
 }
-.cards-prime:hover {
+.cards-feedback:hover {
 	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .material-symbols-rounded {
 	font-size: 60px;
 	color: #ed661f;
 }
-.cards-prime > h2 {
+.cards-feedback > h2 {
 	font-size: 30px !important;
 	/* font-weight: 600; */
 }
