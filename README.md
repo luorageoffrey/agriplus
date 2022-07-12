@@ -41,7 +41,7 @@ To run this project, clone or download it from git hub. Using Live server or you
    
 
 ## Live GitHub Pages Link
-
+https://luorageoffrey.github.io/agriplus/
 
 ## License information
 
