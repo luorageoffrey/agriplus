@@ -3,7 +3,7 @@ body{
     overflow: scroll;
     overflow-x: hidden;
     font-family:'Poppins', sans-serif;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .theme-color {
@@ -12,7 +12,7 @@ body{
 
 @media (min-width: 1290px){
     .container{
-        max-width: 1290px !important;
+        min-width: 1290px !important;
 		margin: auto !important;
 		height: 100%;
     }
@@ -40,7 +40,7 @@ body{
     justify-content: space-between;
     padding: 7px;
     align-items: center;
-    width: 95%;
+    width: 100%;
     margin: auto;
 }
 
@@ -54,7 +54,7 @@ body{
     color: #fff;
     list-style: none;
     font-size: 20px;
-    margin: 20px;
+    /* margin: 20px; */
 
 }
 .nav-links > ul > li {
